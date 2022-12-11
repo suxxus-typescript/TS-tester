@@ -1,0 +1,12 @@
+version: "0"
+services:
+  develop:
+    image: ts-tester/dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ts-tester
+    volumes:
+      - .:/app
+      - ./src:/app
+      - ./node_modules:/app
