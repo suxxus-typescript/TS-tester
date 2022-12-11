@@ -16,7 +16,7 @@ npm install
 
 The package.json file comes with the following scripts
 
-- `start` start watchin for modifications (console logs)
+- `start` start watching for modifications (console logs)
 
 ## Docker:
 
